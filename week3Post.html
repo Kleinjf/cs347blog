@@ -5,28 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogpost 3</title>
+    <style>
+        body{
+            background-color: lightgray;
+            text-align: center;
+        }
+    
+        main {
+            width: 50%;
+            margin: 0 auto;
+            padding: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            box-sizing: border-box;
+            background-color: white;
+        }
+    </style>
 </head>
 <body>
-    <p>
-        Today I found a cool article online with some nifty HTML tricks.
-        Check it out <a href="https://javascript.plainenglish.io/9-cool-things-you-can-do-with-just-html-3f926455a3c2">here!</a>
-    </p>
+    <h1>Jacob Klein's Week 3 Blog Post</h1>
+    <h2>09/19/2021</h2>
+    <main>
+        <p>
+            Today I found a cool article online with some nifty HTML tricks.
+            Check it out <a href="https://javascript.plainenglish.io/9-cool-things-you-can-do-with-just-html-3f926455a3c2">here!</a>
+        </p>
+        
+        <p>
+            I set the default to my favorite color, purple!<br>
+            <label for="favcolor">Select any from 15.8billion+ colors:</label>
+            <input type="color" id="favcolor" name="favcolor" value=#800080>
+        </p>
+        <p>
+            I also found that I can make text boxes edittable by the user!<br>
+            <div contenteditable="true">
+                A user can edit this to say whatever they want. Try it!
+            </div>
+        </p>
     
-    <p>
-        I set the default to my favorite color, purple!<br>
-        <label for="favcolor">Select any from 15.8billion+ colors:</label>
-        <input type="color" id="favcolor" name="favcolor" value=#800080>
-    </p>
-    <p>
-        I also found that I can make text boxes edittable by the user!<br>
-        <div contenteditable="true">
-            A user can edit this to say whatever they want. Try it!
-        </div>
-    </p>
-
-    <p>
-        Click <a href="index.html">here</a> to return to the home page!
-    </p>
-    
+        <p>
+            Click <a href="index.html">here</a> to return to the home page!
+        </p>
+    </main>    
 </body>
 </html>
